@@ -34,7 +34,6 @@ check_env "DOCKER_LOGIN" "$DOCKER_LOGIN"
 check_env "DOCKER_PWD" "$DOCKER_PWD"
 check_env "DOCKER_EMAIL" "$DOCKER_EMAIL"
 check_env "PULL_IMAGE_NAME" "$PULL_IMAGE_NAME"
-sleep 120
 
 if [ -z "$docker_path" ]; then
   echo "ERROR: 'docker' command not present'"
